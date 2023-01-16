@@ -3,6 +3,10 @@ import User from "../component/user"
 
 
 function Home(){
+
+
+
+
     return(
         <div>
             
@@ -12,3 +16,4 @@ function Home(){
 }
 
 export default Home;
+

@@ -21,7 +21,9 @@ class User extends React.Component {
         <div>
             <h1>MY TODO LIST</h1>
           <h1>User Details</h1>
+          <form>
           <div>
+            
             <label>First Name:</label>
             <input
               type="text"
@@ -61,7 +63,10 @@ class User extends React.Component {
               onChange={event => this.setState({ hobbies: event.target.value })}
             />
           </div>
+          </form>
         </div>
+
+        
       );
     }
   }
